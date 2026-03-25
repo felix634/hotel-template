@@ -36,7 +36,7 @@ export default function Contact() {
       {/* Background decorations */}
       <div className="absolute top-0 left-0 w-full h-px shimmer-border" />
 
-      <div ref={ref} className="max-w-7xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20">
+      <div ref={ref} className="max-w-6xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}

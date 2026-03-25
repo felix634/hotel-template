@@ -21,7 +21,7 @@ export default function About() {
       <div className="absolute top-0 right-0 w-96 h-96 bg-gold/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-gold/3 rounded-full blur-3xl" />
 
-      <div ref={ref} className="max-w-7xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20">
+      <div ref={ref} className="max-w-6xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20">
         {/* Section header */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}

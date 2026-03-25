@@ -66,9 +66,9 @@ export default function Rooms() {
   const x = useTransform(scrollYProgress, [0, 1], ["5%", "-45%"]);
 
   return (
-    <section id="szobak" ref={sectionRef} className="relative py-32">
+    <section id="szobak" ref={sectionRef} className="relative py-32 overflow-hidden">
       {/* Section header */}
-      <div ref={headerRef} className="max-w-7xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20 mb-16">
+      <div ref={headerRef} className="max-w-6xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20 mb-16">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={isHeaderInView ? { opacity: 1, y: 0 } : {}}

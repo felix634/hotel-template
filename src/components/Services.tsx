@@ -76,7 +76,7 @@ export default function Services() {
         />
       </div>
 
-      <div ref={ref} className="max-w-7xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20 relative z-10">
+      <div ref={ref} className="max-w-6xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20 relative z-10">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -94,7 +94,7 @@ export default function Services() {
         </motion.div>
 
         {/* Services grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {services.map((service, i) => {
             const Icon = service.icon;
             return (

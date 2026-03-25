@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="relative bg-dark-light border-t border-gold/10">
       {/* Main footer */}
-      <div className="max-w-7xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20 py-20">
+      <div className="max-w-6xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20 py-20">
         <div className="grid md:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="md:col-span-2">
@@ -95,7 +95,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-gold/5">
-        <div className="max-w-7xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="max-w-6xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-cream/25 text-xs tracking-wider">
             © 2026 Grand Royale Hotel & Spa. Minden jog fenntartva.
           </p>

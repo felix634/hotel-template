@@ -49,7 +49,7 @@ export default function Gallery() {
 
   return (
     <section id="galeria" className="relative py-32">
-      <div ref={ref} className="max-w-7xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20">
+      <div ref={ref} className="max-w-6xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
