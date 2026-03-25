@@ -35,7 +35,7 @@ export default function Navbar() {
             : "bg-transparent py-6"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20 flex items-center justify-between">
           <a href="#" className="flex flex-col items-center">
             <span className="font-heading text-2xl tracking-[0.3em] text-gold font-semibold">
               GRAND ROYALE

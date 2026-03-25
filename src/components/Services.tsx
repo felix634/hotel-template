@@ -76,7 +76,7 @@ export default function Services() {
         />
       </div>
 
-      <div ref={ref} className="max-w-7xl mx-auto px-6 relative z-10">
+      <div ref={ref} className="max-w-7xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20 relative z-10">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -94,7 +94,7 @@ export default function Services() {
         </motion.div>
 
         {/* Services grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {services.map((service, i) => {
             const Icon = service.icon;
             return (
@@ -103,22 +103,22 @@ export default function Services() {
                 initial={{ opacity: 0, y: 40 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: i * 0.08 }}
-                className="group relative p-8 bg-dark/50 border border-gold/5 hover:border-gold/25 transition-all duration-500 overflow-hidden"
+                className="group relative p-8 md:p-10 bg-dark/50 border border-gold/5 hover:border-gold/25 transition-all duration-500 overflow-hidden"
               >
                 {/* Hover glow */}
                 <div className="absolute inset-0 bg-gradient-to-br from-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                 <div className="relative z-10">
-                  <div className="w-14 h-14 flex items-center justify-center border border-gold/20 mb-6 group-hover:border-gold/50 transition-colors duration-300">
+                  <div className="w-16 h-16 flex items-center justify-center border border-gold/20 mb-6 group-hover:border-gold/50 transition-colors duration-300">
                     <Icon
-                      size={24}
+                      size={28}
                       className="text-gold/70 group-hover:text-gold transition-colors duration-300"
                     />
                   </div>
                   <h3 className="font-heading text-xl mb-3 text-cream group-hover:text-gold transition-colors duration-300">
                     {service.title}
                   </h3>
-                  <p className="text-cream/40 text-sm leading-relaxed">
+                  <p className="text-cream/40 text-sm leading-loose">
                     {service.desc}
                   </p>
                 </div>

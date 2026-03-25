@@ -57,7 +57,7 @@ export default function Testimonials() {
         <Quote size={300} strokeWidth={0.5} />
       </div>
 
-      <div ref={ref} className="max-w-5xl mx-auto px-6 relative z-10">
+      <div ref={ref} className="max-w-5xl mx-auto px-8 sm:px-12 md:px-16 lg:px-20 relative z-10">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
